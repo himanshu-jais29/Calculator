@@ -16,7 +16,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px; /* Adjust width as necessary */
+    width: 300px; 
     display: flex;
     flex-direction: column;
     top:10%;
@@ -42,8 +42,8 @@ body {
     padding: 20px;
     border-radius: 10px;
     width: 300px;
-    display: flex; /* Use flexbox for a row layout */
-    flex-wrap: wrap; /* Allow buttons to wrap if the container is too small */
+    display: flex; 
+    flex-wrap: wrap; 
     gap: 10px; 
     top:30%;
     left: 10%;
@@ -57,8 +57,7 @@ button {
     background-color: #ebeced;
     color: rgb(14, 5, 73);
     cursor: pointer;
-    flex: 1 1 20%; /* Allow buttons to grow and shrink, set base width */
-}
+    flex: 1 1 20%; 
 
 button:hover {
     background-color: #5746c1;

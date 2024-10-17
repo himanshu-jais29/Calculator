@@ -1,7 +1,7 @@
 function appendToDisplay(value) {
     const display = document.getElementById("display");
     
-    // Prevent adding more than one decimal point in a number
+    
     if (value === '.') {
         const currentValue = display.value;
         const lastNumber = currentValue.split(/[\+\-\*\/]/).pop(); 

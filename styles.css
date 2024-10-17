@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.divs{
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+}
+
+.calculator {
+    background-color: #071244;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as necessary */
+    display: flex;
+    flex-direction: column;
+    top:10%;
+    left:10%;
+}
+
+#display {
+    width: 100%;
+    height: 80px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #f6f9fd; 
+    background-color: #19234f; 
+      
+    
+}
+
+.buttons {
+    background-color: #071244;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex; /* Use flexbox for a row layout */
+    flex-wrap: wrap; /* Allow buttons to wrap if the container is too small */
+    gap: 10px; 
+    top:30%;
+    left: 10%;
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ebeced;
+    color: rgb(14, 5, 73);
+    cursor: pointer;
+    flex: 1 1 20%; /* Allow buttons to grow and shrink, set base width */
+}
+
+button:hover {
+    background-color: #5746c1;
+}
+#Reset{
+    background-color: #6e4ecc;
+    color: #f6f9fd;
+}
+
+#equel{
+    background-color: #ed3232;
+    color: #f6f9fd;
+}
+#delet{
+    background-color: #6e4ecc;
+    color: #f6f9fd;
+
+}
